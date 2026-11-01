@@ -1,0 +1,5 @@
+# Install from the project root with: pip install -r requirements-phase2.txt
+-r requirements.txt
+fastapi>=0.115
+uvicorn[standard]>=0.30
+gradio>=5,<7
