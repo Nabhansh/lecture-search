@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.bak
+
+# Large lecture media: kept locally, not committed
+/*.mp4
+/*.wav
+data/raw/*.mp4
+data/raw/*.wav
+data/audio/*.wav
+data/audio/*.mp3
+
+# Historical evaluation snapshots
+data/evaluation/recovered_summary_snapshot/
+data/evaluation/baseline_before_sjf_fix/

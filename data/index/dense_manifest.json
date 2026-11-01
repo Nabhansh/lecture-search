@@ -1,0 +1,21 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "metric": "cosine_similarity",
+  "index_type": "IndexFlatIP",
+  "normalization": "L2",
+  "embedding_dimensions": 384,
+  "configurations": {
+    "base_auto": {
+      "chunks": 178,
+      "index_file": "dense_base_auto.faiss",
+      "metadata_file": "dense_base_auto_metadata.jsonl",
+      "dimensions": 384
+    },
+    "small_hi": {
+      "chunks": 178,
+      "index_file": "dense_small_hi.faiss",
+      "metadata_file": "dense_small_hi_metadata.jsonl",
+      "dimensions": 384
+    }
+  }
+}

@@ -1,0 +1,181 @@
+query_id,language,query,config,strategy,first_segment_hit_rank,first_lecture_hit_rank,reciprocal_rank,segment_recall@1,lecture_recall@1,segment_recall@5,lecture_recall@5,segment_recall@10,lecture_recall@10,timestamp_hit@10
+Q001,English,How does FCFS scheduling select the next process?,base_auto,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q001,English,How does FCFS scheduling select the next process?,base_auto,dense,1,1,1.0,1,1,1,1,1,1,1
+Q001,English,How does FCFS scheduling select the next process?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q001,English,How does FCFS scheduling select the next process?,small_hi,keyword,2,1,0.5,0,1,1,1,1,1,1
+Q001,English,How does FCFS scheduling select the next process?,small_hi,dense,1,1,1.0,1,1,1,1,1,1,1
+Q001,English,How does FCFS scheduling select the next process?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q002,English,How is waiting time calculated in FCFS?,base_auto,keyword,5,1,0.2,0,1,1,1,1,1,1
+Q002,English,How is waiting time calculated in FCFS?,base_auto,dense,5,1,0.2,0,1,1,1,1,1,1
+Q002,English,How is waiting time calculated in FCFS?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q002,English,How is waiting time calculated in FCFS?,small_hi,keyword,5,1,0.2,0,1,1,1,1,1,1
+Q002,English,How is waiting time calculated in FCFS?,small_hi,dense,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q002,English,How is waiting time calculated in FCFS?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q003,Hindi,FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?,base_auto,keyword,3,1,0.3333333333333333,0,1,1,1,1,1,1
+Q003,Hindi,FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?,base_auto,dense,1,1,1.0,1,1,1,1,1,1,1
+Q003,Hindi,FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q003,Hindi,FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?,small_hi,keyword,,1,0.0,0,1,0,1,0,1,0
+Q003,Hindi,FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?,small_hi,dense,1,1,1.0,1,1,1,1,1,1,1
+Q003,Hindi,FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q004,Hindi,FCFS में वेटिंग टाइम कैसे निकाला जाता है?,base_auto,keyword,,1,0.0,0,1,0,1,0,1,0
+Q004,Hindi,FCFS में वेटिंग टाइम कैसे निकाला जाता है?,base_auto,dense,5,1,0.2,0,1,1,1,1,1,1
+Q004,Hindi,FCFS में वेटिंग टाइम कैसे निकाला जाता है?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q004,Hindi,FCFS में वेटिंग टाइम कैसे निकाला जाता है?,small_hi,keyword,,8,0.0,0,0,0,0,0,1,0
+Q004,Hindi,FCFS में वेटिंग टाइम कैसे निकाला जाता है?,small_hi,dense,10,1,0.1,0,1,0,1,1,1,1
+Q004,Hindi,FCFS में वेटिंग टाइम कैसे निकाला जाता है?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q005,Hinglish,FCFS mein arrival time ka kya role hota hai?,base_auto,keyword,4,4,0.25,0,0,1,1,1,1,1
+Q005,Hinglish,FCFS mein arrival time ka kya role hota hai?,base_auto,dense,1,1,1.0,1,1,1,1,1,1,1
+Q005,Hinglish,FCFS mein arrival time ka kya role hota hai?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q005,Hinglish,FCFS mein arrival time ka kya role hota hai?,small_hi,keyword,2,2,0.5,0,0,1,1,1,1,1
+Q005,Hinglish,FCFS mein arrival time ka kya role hota hai?,small_hi,dense,1,1,1.0,1,1,1,1,1,1,1
+Q005,Hinglish,FCFS mein arrival time ka kya role hota hai?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q006,Hinglish,FCFS scheduling mein waiting time kaise calculate karte hain?,base_auto,keyword,10,1,0.1,0,1,0,1,1,1,1
+Q006,Hinglish,FCFS scheduling mein waiting time kaise calculate karte hain?,base_auto,dense,6,1,0.16666666666666666,0,1,0,1,1,1,1
+Q006,Hinglish,FCFS scheduling mein waiting time kaise calculate karte hain?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q006,Hinglish,FCFS scheduling mein waiting time kaise calculate karte hain?,small_hi,keyword,,1,0.0,0,1,0,1,0,1,0
+Q006,Hinglish,FCFS scheduling mein waiting time kaise calculate karte hain?,small_hi,dense,,1,0.0,0,1,0,1,0,1,0
+Q006,Hinglish,FCFS scheduling mein waiting time kaise calculate karte hain?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q007,English,What is the shortest job first scheduling algorithm?,base_auto,keyword,5,1,0.2,0,1,1,1,1,1,1
+Q007,English,What is the shortest job first scheduling algorithm?,base_auto,dense,5,1,0.2,0,1,1,1,1,1,1
+Q007,English,What is the shortest job first scheduling algorithm?,base_auto,hybrid,2,1,0.5,0,1,1,1,1,1,1
+Q007,English,What is the shortest job first scheduling algorithm?,small_hi,keyword,,2,0.0,0,0,0,1,0,1,0
+Q007,English,What is the shortest job first scheduling algorithm?,small_hi,dense,,1,0.0,0,1,0,1,0,1,0
+Q007,English,What is the shortest job first scheduling algorithm?,small_hi,hybrid,,1,0.0,0,1,0,1,0,1,0
+Q008,English,How does SJF choose between processes with different burst times?,base_auto,keyword,9,1,0.1111111111111111,0,1,0,1,1,1,1
+Q008,English,How does SJF choose between processes with different burst times?,base_auto,dense,9,2,0.1111111111111111,0,0,0,1,1,1,1
+Q008,English,How does SJF choose between processes with different burst times?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q008,English,How does SJF choose between processes with different burst times?,small_hi,keyword,5,1,0.2,0,1,1,1,1,1,1
+Q008,English,How does SJF choose between processes with different burst times?,small_hi,dense,8,1,0.125,0,1,0,1,1,1,1
+Q008,English,How does SJF choose between processes with different burst times?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q009,Hindi,SJF शेड्यूलिंग क्या होती है?,base_auto,keyword,2,1,0.5,0,1,1,1,1,1,1
+Q009,Hindi,SJF शेड्यूलिंग क्या होती है?,base_auto,dense,,,0.0,0,0,0,0,0,0,0
+Q009,Hindi,SJF शेड्यूलिंग क्या होती है?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q009,Hindi,SJF शेड्यूलिंग क्या होती है?,small_hi,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q009,Hindi,SJF शेड्यूलिंग क्या होती है?,small_hi,dense,,,0.0,0,0,0,0,0,0,0
+Q009,Hindi,SJF शेड्यूलिंग क्या होती है?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q010,Hindi,SJF में सबसे पहले कौन सा प्रोसेस execute होता है?,base_auto,keyword,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q010,Hindi,SJF में सबसे पहले कौन सा प्रोसेस execute होता है?,base_auto,dense,,2,0.0,0,0,0,1,0,1,0
+Q010,Hindi,SJF में सबसे पहले कौन सा प्रोसेस execute होता है?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q010,Hindi,SJF में सबसे पहले कौन सा प्रोसेस execute होता है?,small_hi,keyword,2,1,0.5,0,1,1,1,1,1,1
+Q010,Hindi,SJF में सबसे पहले कौन सा प्रोसेस execute होता है?,small_hi,dense,,4,0.0,0,0,0,1,0,1,0
+Q010,Hindi,SJF में सबसे पहले कौन सा प्रोसेस execute होता है?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q011,Hinglish,SJF mein shortest job kaise select hoti hai?,base_auto,keyword,5,1,0.2,0,1,1,1,1,1,1
+Q011,Hinglish,SJF mein shortest job kaise select hoti hai?,base_auto,dense,,6,0.0,0,0,0,0,0,1,0
+Q011,Hinglish,SJF mein shortest job kaise select hoti hai?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q011,Hinglish,SJF mein shortest job kaise select hoti hai?,small_hi,keyword,3,1,0.3333333333333333,0,1,1,1,1,1,1
+Q011,Hinglish,SJF mein shortest job kaise select hoti hai?,small_hi,dense,,1,0.0,0,1,0,1,0,1,0
+Q011,Hinglish,SJF mein shortest job kaise select hoti hai?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q012,Hinglish,Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?,base_auto,keyword,3,1,0.3333333333333333,0,1,1,1,1,1,1
+Q012,Hinglish,Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?,base_auto,dense,,,0.0,0,0,0,0,0,0,0
+Q012,Hinglish,Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q012,Hinglish,Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?,small_hi,keyword,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q012,Hinglish,Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?,small_hi,dense,,1,0.0,0,1,0,1,0,1,0
+Q012,Hinglish,Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q013,English,Why do operating systems use semaphores for process synchronization?,base_auto,keyword,7,5,0.14285714285714285,0,0,0,1,1,1,1
+Q013,English,Why do operating systems use semaphores for process synchronization?,base_auto,dense,7,2,0.14285714285714285,0,0,0,1,1,1,1
+Q013,English,Why do operating systems use semaphores for process synchronization?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q013,English,Why do operating systems use semaphores for process synchronization?,small_hi,keyword,,8,0.0,0,0,0,0,0,1,0
+Q013,English,Why do operating systems use semaphores for process synchronization?,small_hi,dense,,3,0.0,0,0,0,1,0,1,0
+Q013,English,Why do operating systems use semaphores for process synchronization?,small_hi,hybrid,,1,0.0,0,1,0,1,0,1,0
+Q014,English,What is the difference between a binary semaphore and a counting semaphore?,base_auto,keyword,2,1,0.5,0,1,1,1,1,1,1
+Q014,English,What is the difference between a binary semaphore and a counting semaphore?,base_auto,dense,3,1,0.3333333333333333,0,1,1,1,1,1,1
+Q014,English,What is the difference between a binary semaphore and a counting semaphore?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q014,English,What is the difference between a binary semaphore and a counting semaphore?,small_hi,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q014,English,What is the difference between a binary semaphore and a counting semaphore?,small_hi,dense,1,1,1.0,1,1,1,1,1,1,1
+Q014,English,What is the difference between a binary semaphore and a counting semaphore?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q015,Hindi,बाइनरी सेमाफोर क्या होता है?,base_auto,keyword,,,0.0,0,0,0,0,0,0,0
+Q015,Hindi,बाइनरी सेमाफोर क्या होता है?,base_auto,dense,,2,0.0,0,0,0,1,0,1,0
+Q015,Hindi,बाइनरी सेमाफोर क्या होता है?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q015,Hindi,बाइनरी सेमाफोर क्या होता है?,small_hi,keyword,4,1,0.25,0,1,1,1,1,1,1
+Q015,Hindi,बाइनरी सेमाफोर क्या होता है?,small_hi,dense,,2,0.0,0,0,0,1,0,1,0
+Q015,Hindi,बाइनरी सेमाफोर क्या होता है?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q016,Hindi,क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?,base_auto,keyword,6,1,0.16666666666666666,0,1,0,1,1,1,1
+Q016,Hindi,क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?,base_auto,dense,,2,0.0,0,0,0,1,0,1,0
+Q016,Hindi,क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q016,Hindi,क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?,small_hi,keyword,5,1,0.2,0,1,1,1,1,1,1
+Q016,Hindi,क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?,small_hi,dense,,7,0.0,0,0,0,0,0,1,0
+Q016,Hindi,क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q017,Hinglish,Semaphore ka use process synchronization mein kaise hota hai?,base_auto,keyword,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q017,Hinglish,Semaphore ka use process synchronization mein kaise hota hai?,base_auto,dense,2,2,0.5,0,0,1,1,1,1,1
+Q017,Hinglish,Semaphore ka use process synchronization mein kaise hota hai?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q017,Hinglish,Semaphore ka use process synchronization mein kaise hota hai?,small_hi,keyword,,4,0.0,0,0,0,1,0,1,0
+Q017,Hinglish,Semaphore ka use process synchronization mein kaise hota hai?,small_hi,dense,,2,0.0,0,0,0,1,0,1,0
+Q017,Hinglish,Semaphore ka use process synchronization mein kaise hota hai?,small_hi,hybrid,,1,0.0,0,1,0,1,0,1,0
+Q018,Hinglish,Critical section ko ek time par kitne processes access kar sakte hain?,base_auto,keyword,9,1,0.1111111111111111,0,1,0,1,1,1,1
+Q018,Hinglish,Critical section ko ek time par kitne processes access kar sakte hain?,base_auto,dense,,7,0.0,0,0,0,0,0,1,0
+Q018,Hinglish,Critical section ko ek time par kitne processes access kar sakte hain?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q018,Hinglish,Critical section ko ek time par kitne processes access kar sakte hain?,small_hi,keyword,8,2,0.125,0,0,0,1,1,1,1
+Q018,Hinglish,Critical section ko ek time par kitne processes access kar sakte hain?,small_hi,dense,,,0.0,0,0,0,0,0,0,0
+Q018,Hinglish,Critical section ko ek time par kitne processes access kar sakte hain?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q019,English,What is deadlock in an operating system?,base_auto,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q019,English,What is deadlock in an operating system?,base_auto,dense,1,1,1.0,1,1,1,1,1,1,1
+Q019,English,What is deadlock in an operating system?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q019,English,What is deadlock in an operating system?,small_hi,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q019,English,What is deadlock in an operating system?,small_hi,dense,2,1,0.5,0,1,1,1,1,1,1
+Q019,English,What is deadlock in an operating system?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q020,English,Why can processes wait indefinitely in a deadlock?,base_auto,keyword,,1,0.0,0,1,0,1,0,1,0
+Q020,English,Why can processes wait indefinitely in a deadlock?,base_auto,dense,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q020,English,Why can processes wait indefinitely in a deadlock?,base_auto,hybrid,5,1,0.2,0,1,1,1,1,1,1
+Q020,English,Why can processes wait indefinitely in a deadlock?,small_hi,keyword,,1,0.0,0,1,0,1,0,1,0
+Q020,English,Why can processes wait indefinitely in a deadlock?,small_hi,dense,,1,0.0,0,1,0,1,0,1,0
+Q020,English,Why can processes wait indefinitely in a deadlock?,small_hi,hybrid,9,1,0.1111111111111111,0,1,0,1,1,1,1
+Q021,Hindi,ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?,base_auto,keyword,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q021,Hindi,ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?,base_auto,dense,,1,0.0,0,1,0,1,0,1,0
+Q021,Hindi,ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q021,Hindi,ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?,small_hi,keyword,,,0.0,0,0,0,0,0,0,0
+Q021,Hindi,ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?,small_hi,dense,10,5,0.1,0,0,0,1,1,1,1
+Q021,Hindi,ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q022,Hindi,डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?,base_auto,keyword,,1,0.0,0,1,0,1,0,1,0
+Q022,Hindi,डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?,base_auto,dense,3,1,0.3333333333333333,0,1,1,1,1,1,1
+Q022,Hindi,डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?,base_auto,hybrid,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q022,Hindi,डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?,small_hi,keyword,,,0.0,0,0,0,0,0,0,0
+Q022,Hindi,डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?,small_hi,dense,,3,0.0,0,0,0,1,0,1,0
+Q022,Hindi,डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?,small_hi,hybrid,,1,0.0,0,1,0,1,0,1,0
+Q023,Hinglish,Deadlock kab hota hai?,base_auto,keyword,,9,0.0,0,0,0,0,0,1,0
+Q023,Hinglish,Deadlock kab hota hai?,base_auto,dense,2,1,0.5,0,1,1,1,1,1,1
+Q023,Hinglish,Deadlock kab hota hai?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q023,Hinglish,Deadlock kab hota hai?,small_hi,keyword,,2,0.0,0,0,0,1,0,1,0
+Q023,Hinglish,Deadlock kab hota hai?,small_hi,dense,2,1,0.5,0,1,1,1,1,1,1
+Q023,Hinglish,Deadlock kab hota hai?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q024,Hinglish,Processes resources ke liye wait karte rahein to kya situation banti hai?,base_auto,keyword,10,4,0.1,0,0,0,1,1,1,1
+Q024,Hinglish,Processes resources ke liye wait karte rahein to kya situation banti hai?,base_auto,dense,,,0.0,0,0,0,0,0,0,0
+Q024,Hinglish,Processes resources ke liye wait karte rahein to kya situation banti hai?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q024,Hinglish,Processes resources ke liye wait karte rahein to kya situation banti hai?,small_hi,keyword,5,3,0.2,0,0,1,1,1,1,1
+Q024,Hinglish,Processes resources ke liye wait karte rahein to kya situation banti hai?,small_hi,dense,,3,0.0,0,0,0,1,0,1,0
+Q024,Hinglish,Processes resources ke liye wait karte rahein to kya situation banti hai?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q025,English,What is paging in memory management?,base_auto,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q025,English,What is paging in memory management?,base_auto,dense,,1,0.0,0,1,0,1,0,1,0
+Q025,English,What is paging in memory management?,base_auto,hybrid,2,1,0.5,0,1,1,1,1,1,1
+Q025,English,What is paging in memory management?,small_hi,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q025,English,What is paging in memory management?,small_hi,dense,3,1,0.3333333333333333,0,1,1,1,1,1,1
+Q025,English,What is paging in memory management?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q026,English,How are processes divided into pages?,base_auto,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q026,English,How are processes divided into pages?,base_auto,dense,4,1,0.25,0,1,1,1,1,1,1
+Q026,English,How are processes divided into pages?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q026,English,How are processes divided into pages?,small_hi,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q026,English,How are processes divided into pages?,small_hi,dense,4,1,0.25,0,1,1,1,1,1,1
+Q026,English,How are processes divided into pages?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q027,Hindi,मेमोरी मैनेजमेंट में पेजिंग क्या होती है?,base_auto,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q027,Hindi,मेमोरी मैनेजमेंट में पेजिंग क्या होती है?,base_auto,dense,4,1,0.25,0,1,1,1,1,1,1
+Q027,Hindi,मेमोरी मैनेजमेंट में पेजिंग क्या होती है?,base_auto,hybrid,6,1,0.16666666666666666,0,1,0,1,1,1,1
+Q027,Hindi,मेमोरी मैनेजमेंट में पेजिंग क्या होती है?,small_hi,keyword,,,0.0,0,0,0,0,0,0,0
+Q027,Hindi,मेमोरी मैनेजमेंट में पेजिंग क्या होती है?,small_hi,dense,4,1,0.25,0,1,1,1,1,1,1
+Q027,Hindi,मेमोरी मैनेजमेंट में पेजिंग क्या होती है?,small_hi,hybrid,8,1,0.125,0,1,0,1,1,1,1
+Q028,Hindi,प्रोसेस को पेजों में क्यों बाँटा जाता है?,base_auto,keyword,,3,0.0,0,0,0,1,0,1,0
+Q028,Hindi,प्रोसेस को पेजों में क्यों बाँटा जाता है?,base_auto,dense,,1,0.0,0,1,0,1,0,1,0
+Q028,Hindi,प्रोसेस को पेजों में क्यों बाँटा जाता है?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q028,Hindi,प्रोसेस को पेजों में क्यों बाँटा जाता है?,small_hi,keyword,,,0.0,0,0,0,0,0,0,0
+Q028,Hindi,प्रोसेस को पेजों में क्यों बाँटा जाता है?,small_hi,dense,9,1,0.1111111111111111,0,1,0,1,1,1,1
+Q028,Hindi,प्रोसेस को पेजों में क्यों बाँटा जाता है?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q029,Hinglish,Process ko pages mein kaise divide karte hain?,base_auto,keyword,7,1,0.14285714285714285,0,1,0,1,1,1,1
+Q029,Hinglish,Process ko pages mein kaise divide karte hain?,base_auto,dense,,1,0.0,0,1,0,1,0,1,0
+Q029,Hinglish,Process ko pages mein kaise divide karte hain?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q029,Hinglish,Process ko pages mein kaise divide karte hain?,small_hi,keyword,3,2,0.3333333333333333,0,0,1,1,1,1,1
+Q029,Hinglish,Process ko pages mein kaise divide karte hain?,small_hi,dense,9,3,0.1111111111111111,0,0,0,1,1,1,1
+Q029,Hinglish,Process ko pages mein kaise divide karte hain?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q030,Hinglish,Secondary memory se process ko main memory mein kaise laate hain?,base_auto,keyword,1,1,1.0,1,1,1,1,1,1,1
+Q030,Hinglish,Secondary memory se process ko main memory mein kaise laate hain?,base_auto,dense,3,1,0.3333333333333333,0,1,1,1,1,1,1
+Q030,Hinglish,Secondary memory se process ko main memory mein kaise laate hain?,base_auto,hybrid,1,1,1.0,1,1,1,1,1,1,1
+Q030,Hinglish,Secondary memory se process ko main memory mein kaise laate hain?,small_hi,keyword,2,2,0.5,0,0,1,1,1,1,1
+Q030,Hinglish,Secondary memory se process ko main memory mein kaise laate hain?,small_hi,dense,1,1,1.0,1,1,1,1,1,1,1
+Q030,Hinglish,Secondary memory se process ko main memory mein kaise laate hain?,small_hi,hybrid,1,1,1.0,1,1,1,1,1,1,1

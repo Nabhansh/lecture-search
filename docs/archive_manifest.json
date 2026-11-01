@@ -1,0 +1,22 @@
+{
+  "package_name": "lecture-search-latest",
+  "as_of": "2026-11-01",
+  "reconstruction": true,
+  "recovered": [
+    "base_auto and small_hi transcripts",
+    "base_auto and small_hi chunk JSONL",
+    "SQLite FTS5 keyword index",
+    "two FAISS indexes and metadata",
+    "30-query evaluation set",
+    "benchmark runner and scorer",
+    "baseline per-query CSV and aggregate scorecards"
+  ],
+  "not_recovered": [
+    "five original MP4 lecture files",
+    "WAV audio files",
+    "latest raw runs.jsonl and complete latest per-query metrics",
+    "model cache",
+    "original venv and Git history",
+    "frontend/voice-search app"
+  ]
+}

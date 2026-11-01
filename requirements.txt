@@ -1,0 +1,7 @@
+yt-dlp>=2024.8.6
+faster-whisper==1.2.1
+av==15.1.0
+tqdm
+fastembed==0.9.1
+faiss-cpu==1.15.1
+numpy
