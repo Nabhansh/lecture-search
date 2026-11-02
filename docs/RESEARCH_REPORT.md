@@ -108,9 +108,9 @@ The project state recorded on 2 November 2026 includes:
 - Search endpoint checks for English, Hindi and Hinglish examples.
 - HTTP 206 byte-range responses for the five video media endpoints.
 - 46 passing regression tests in the Fedora project environment.
-- Browser timestamp seeking confirmed for FCFS.
+- Browser timestamp seeking manually verified for all five lectures: FCFS, SJF, Process Synchronization, Deadlocks and Paging.
 
-For the other four lectures, the browser logs show requests to the corresponding media endpoints with HTTP 206 responses. A visual check of the player's displayed/current playback time is still required before claiming that timestamp seeking has been verified for all five videos.
+Browser testing subsequently confirmed that selecting search results for all five lectures loads the corresponding video and seeks playback to the displayed timestamp. All five lecture videos passed this manual timestamp-seeking verification.
 
 ## 7. Discussion
 

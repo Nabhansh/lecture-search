@@ -2,30 +2,17 @@
 
 ## A. Browser timestamp validation
 
-The latest browser/server log shows `HTTP 206 Partial Content` for each of these media routes. That is evidence of byte-range delivery, not final proof of the visible timestamp position.
+All five lecture videos passed manual browser testing. Selecting a search result loaded the corresponding video and moved playback to the displayed timestamp.
 
-| Topic | Expected lecture ID | Media request observed | Visible seek verified |
+| Topic | Expected lecture ID | Media streaming | Visible timestamp seeking |
 |---|---|---:|---:|
-| FCFS | `os_l23_fcfs` | Yes | Yes |
-| SJF | `os_l24_sjf` | Yes | Pending |
-| Process Synchronization | `os_l39` | Yes | Pending |
-| Deadlocks | `os_l41_deadlock` | Yes | Pending |
-| Paging | `os_l58` | Yes | Pending |
+| FCFS | `os_l23_fcfs` | PASS | PASS |
+| SJF | `os_l24_sjf` | PASS | PASS |
+| Process Synchronization | `os_l39` | PASS | PASS |
+| Deadlocks | `os_l41_deadlock` | PASS | PASS |
+| Paging | `os_l58` | PASS | PASS |
 
-For each pending row:
-
-1. Start the app with `python app.py` and open `http://127.0.0.1:7860`.
-2. Run the search query below and select the corresponding result row.
-3. Confirm the selected lecture is correct.
-4. Confirm the player loads and its current time is near the timestamp shown in the selected result. Do not use the browser request log alone as proof.
-5. Mark the row PASS only after observing the player position.
-
-| Topic | Search query |
-|---|---|
-| SJF | `SJF में सबसे पहले कौन सा प्रोसेस execute होता है?` |
-| Process Synchronization | `What is the critical section in process synchronization?` |
-| Deadlocks | `Processes resources ke liye wait karte rahein to kya situation banti hai?` |
-| Paging | `Why is a process divided into pages?` |
+**Result: 5/5 lecture videos passed browser timestamp-seeking verification.**
 
 ## B. Automated verification
 
@@ -97,7 +84,7 @@ Record the demo using `docs/DEMO_SCRIPT.md`. Save the video locally and only com
 
 ## Release acceptance criteria
 
-- [ ] All five browser timestamp checks visibly pass.
+- [x] All five browser timestamp checks visibly pass.
 - [ ] Automated test suite passes (recorded baseline: 46 tests).
 - [ ] Overall and language benchmark figures generated from the final CSV exports.
 - [ ] Research report and architecture documentation reviewed.
