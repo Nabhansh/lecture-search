@@ -221,6 +221,24 @@ def is_critical_section_concurrency_query(query: str) -> bool:
     )
 
 
+def is_critical_section_definition_query(query: str) -> bool:
+    """Detect questions asking what a critical section means."""
+    tokens = set(tokenize(query))
+    has_critical_section = (
+        {"critical", "section"} <= tokens
+        or {"क्रिटिकल", "सेक्शन"} <= tokens
+    )
+    definition_cues = {
+        "what", "define", "definition", "meaning", "explain",
+        "क्या", "kya", "matlab",
+    }
+    return (
+        has_critical_section
+        and bool(tokens & definition_cues)
+        and not is_critical_section_concurrency_query(query)
+    )
+
+
 def is_deadlock_resource_wait_query(query: str) -> bool:
     """Detect process/resource waiting scenarios, even without the word deadlock."""
     tokens = set(tokenize(query))
@@ -338,6 +356,15 @@ def query_phrase_expansions(query: str) -> list[str]:
             "cannot enter critical section",
         ))
 
+    if is_critical_section_definition_query(query):
+        phrases.extend((
+            "mutual exclusion",
+            "critical section",
+            "one process inside the critical section",
+            "another process is blocked",
+            "cannot enter critical section",
+        ))
+
     if is_deadlock_resource_wait_query(query):
         phrases.extend((
             "P1 has taken one resource",
@@ -430,6 +457,15 @@ def semantic_query_text(query: str) -> str:
               "to use the critical section at a time. "
               "While one process is inside, another process is blocked "
               "and cannot enter."
+        )
+
+    if is_critical_section_definition_query(query):
+        return (
+            query
+            + " A critical section is the part of a process that accesses "
+              "shared resources. Mutual exclusion means only one process "
+              "can be inside the critical section at a time. "
+              "Another process is blocked until the first process exits."
         )
 
     if is_deadlock_resource_wait_query(query):
@@ -872,6 +908,36 @@ def segment_intent_match_score(
             return 12
         if has_process and blocked_evidence:
             return 10
+        if mutual_exclusion:
+            return 10
+        return 0
+
+    if is_critical_section_definition_query(query):
+        critical_anchor = (
+            {"critical", "section"} <= context
+            or {"क्रिटिकल", "सेक्शन"} <= context
+        )
+        if not critical_anchor:
+            return 0
+
+        mutual_exclusion = (
+            "mutual" in context
+            and bool(context & {"exclusion", "exclusive"})
+        )
+        has_process = bool(
+            context & {"process", "processes", "प्रोसेस", "प्रोसेसेस"}
+        )
+        blocked_evidence = bool(
+            context & {"blocked", "block", "cannot", "can't"}
+        )
+        inside_evidence = bool(
+            context & {"inside", "enter", "entering", "using"}
+        )
+
+        if mutual_exclusion and has_process:
+            return 12
+        if has_process and blocked_evidence and inside_evidence:
+            return 11
         if mutual_exclusion:
             return 10
         return 0

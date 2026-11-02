@@ -324,3 +324,54 @@ def test_fcfs_waiting_time_does_not_promote_sjf_lecture():
     assert module.segment_intent_match_score(
         query, segment, context, lecture_id="os_l23_fcfs"
     ) == 12
+
+def test_critical_section_definition_intent_detection():
+    assert module.is_critical_section_definition_query(
+        "What is the critical section in process synchronization?"
+    )
+    assert module.is_critical_section_definition_query(
+        "Define the critical section."
+    )
+    assert not module.is_critical_section_definition_query(
+        "How many processes can access the critical section at one time?"
+    )
+
+
+def test_critical_section_definition_phrase_expansion():
+    phrases = module.query_phrase_expansions(
+        "What is the critical section in process synchronization?"
+    )
+    assert "mutual exclusion" in phrases
+    assert "another process is blocked" in phrases
+
+
+def test_critical_section_definition_semantic_expansion():
+    expanded = module.semantic_query_text(
+        "What is the critical section in process synchronization?"
+    )
+    normalized = expanded.casefold()
+    assert "mutual exclusion" in normalized
+    assert "shared resources" in normalized
+
+
+def test_critical_section_definition_scores_actual_explanation():
+    score = module.segment_intent_match_score(
+        "What is the critical section in process synchronization?",
+        "Mutual exclusion means,",
+        (
+            "One process is inside the critical section; "
+            "another process is blocked and cannot enter."
+        ),
+        lecture_id="os_l39",
+    )
+    assert score == 12
+
+
+def test_critical_section_definition_rejects_unrelated_synchronization():
+    score = module.segment_intent_match_score(
+        "What is the critical section in process synchronization?",
+        "then in synchronization",
+        "Two processes are waiting for resources.",
+        lecture_id="os_l41_deadlock",
+    )
+    assert score == 0
