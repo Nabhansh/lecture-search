@@ -1,0 +1,7 @@
+config,strategy,n_queries,segment_recall@1,segment_recall@5,segment_recall@10,reciprocal_rank,timestamp_hit@10
+base_auto,dense,30,0.133,0.467,0.600,0.255,0.600
+base_auto,hybrid,30,0.833,0.933,1.000,0.884,1.000
+base_auto,keyword,30,0.200,0.467,0.800,0.327,0.800
+small_hi,dense,30,0.167,0.333,0.533,0.251,0.533
+small_hi,hybrid,30,0.800,0.800,0.867,0.808,0.867
+small_hi,keyword,30,0.167,0.533,0.600,0.299,0.600

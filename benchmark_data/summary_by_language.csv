@@ -1,0 +1,4 @@
+config,strategy,language,n_queries,segment_recall@1,reciprocal_rank,timestamp_hit@10
+base_auto,hybrid,English,10,0.700,0.820,1.000
+base_auto,hybrid,Hindi,10,0.800,0.831,1.000
+base_auto,hybrid,Hinglish,10,1.000,1.000,1.000
