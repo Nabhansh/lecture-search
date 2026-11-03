@@ -1,30 +1,30 @@
-{"query_id":"Q001","language":"English","topic_hint":"FCFS scheduling","query":"How does FCFS scheduling select the next process?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q002","language":"English","topic_hint":"FCFS scheduling","query":"How is waiting time calculated in FCFS?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q003","language":"Hindi","topic_hint":"FCFS scheduling","query":"FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q004","language":"Hindi","topic_hint":"FCFS scheduling","query":"FCFS में वेटिंग टाइम कैसे निकाला जाता है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q005","language":"Hinglish","topic_hint":"FCFS scheduling","query":"FCFS mein arrival time ka kya role hota hai?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q006","language":"Hinglish","topic_hint":"FCFS scheduling","query":"FCFS scheduling mein waiting time kaise calculate karte hain?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q007","language":"English","topic_hint":"SJF scheduling","query":"What is the shortest job first scheduling algorithm?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q008","language":"English","topic_hint":"SJF scheduling","query":"How does SJF choose between processes with different burst times?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q009","language":"Hindi","topic_hint":"SJF scheduling","query":"SJF शेड्यूलिंग क्या होती है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q010","language":"Hindi","topic_hint":"SJF scheduling","query":"SJF में सबसे पहले कौन सा प्रोसेस execute होता है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q011","language":"Hinglish","topic_hint":"SJF scheduling","query":"SJF mein shortest job kaise select hoti hai?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q012","language":"Hinglish","topic_hint":"SJF scheduling","query":"Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q013","language":"English","topic_hint":"Process synchronization and semaphores","query":"Why do operating systems use semaphores for process synchronization?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q014","language":"English","topic_hint":"Process synchronization and semaphores","query":"What is the difference between a binary semaphore and a counting semaphore?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q015","language":"Hindi","topic_hint":"Process synchronization and semaphores","query":"बाइनरी सेमाफोर क्या होता है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q016","language":"Hindi","topic_hint":"Process synchronization and semaphores","query":"क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q017","language":"Hinglish","topic_hint":"Process synchronization and semaphores","query":"Semaphore ka use process synchronization mein kaise hota hai?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q018","language":"Hinglish","topic_hint":"Process synchronization and semaphores","query":"Critical section ko ek time par kitne processes access kar sakte hain?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q019","language":"English","topic_hint":"Deadlocks","query":"What is deadlock in an operating system?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q020","language":"English","topic_hint":"Deadlocks","query":"Why can processes wait indefinitely in a deadlock?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q021","language":"Hindi","topic_hint":"Deadlocks","query":"ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q022","language":"Hindi","topic_hint":"Deadlocks","query":"डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q023","language":"Hinglish","topic_hint":"Deadlocks","query":"Deadlock kab hota hai?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q024","language":"Hinglish","topic_hint":"Deadlocks","query":"Processes resources ke liye wait karte rahein to kya situation banti hai?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q025","language":"English","topic_hint":"Memory management and paging","query":"What is paging in memory management?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q026","language":"English","topic_hint":"Memory management and paging","query":"How are processes divided into pages?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q027","language":"Hindi","topic_hint":"Memory management and paging","query":"मेमोरी मैनेजमेंट में पेजिंग क्या होती है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q028","language":"Hindi","topic_hint":"Memory management and paging","query":"प्रोसेस को पेजों में क्यों बाँटा जाता है?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q029","language":"Hinglish","topic_hint":"Memory management and paging","query":"Process ko pages mein kaise divide karte hain?","relevant":[],"verified":false,"annotation_notes":""}
-{"query_id":"Q030","language":"Hinglish","topic_hint":"Memory management and paging","query":"Secondary memory se process ko main memory mein kaise laate hain?","relevant":[],"verified":false,"annotation_notes":""}
+{"query_id": "Q001", "language": "English", "topic_hint": "FCFS scheduling", "query": "How does FCFS scheduling select the next process?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q002", "language": "English", "topic_hint": "FCFS scheduling", "query": "How is waiting time calculated in FCFS?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q003", "language": "Hindi", "topic_hint": "FCFS scheduling", "query": "FCFS शेड्यूलिंग में अगला प्रोसेस कैसे चुना जाता है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q004", "language": "Hindi", "topic_hint": "FCFS scheduling", "query": "FCFS में वेटिंग टाइम कैसे निकाला जाता है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q005", "language": "Hinglish", "topic_hint": "FCFS scheduling", "query": "FCFS mein arrival time ka kya role hota hai?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q006", "language": "Hinglish", "topic_hint": "FCFS scheduling", "query": "FCFS scheduling mein waiting time kaise calculate karte hain?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q007", "language": "English", "topic_hint": "SJF scheduling", "query": "What is the shortest job first scheduling algorithm?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q008", "language": "English", "topic_hint": "SJF scheduling", "query": "How does SJF choose between processes with different burst times?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q009", "language": "Hindi", "topic_hint": "SJF scheduling", "query": "SJF शेड्यूलिंग क्या होती है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q010", "language": "Hindi", "topic_hint": "SJF scheduling", "query": "SJF में सबसे पहले कौन सा प्रोसेस execute होता है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q011", "language": "Hinglish", "topic_hint": "SJF scheduling", "query": "SJF mein shortest job kaise select hoti hai?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q012", "language": "Hinglish", "topic_hint": "SJF scheduling", "query": "Agar do processes ka arrival time same ho to SJF mein kaise select karte hain?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q013", "language": "English", "topic_hint": "Process synchronization and semaphores", "query": "Why do operating systems use semaphores for process synchronization?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q014", "language": "English", "topic_hint": "Process synchronization and semaphores", "query": "What is the difference between a binary semaphore and a counting semaphore?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q015", "language": "Hindi", "topic_hint": "Process synchronization and semaphores", "query": "बाइनरी सेमाफोर क्या होता है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q016", "language": "Hindi", "topic_hint": "Process synchronization and semaphores", "query": "क्रिटिकल सेक्शन में एक समय पर कितने प्रोसेस जा सकते हैं?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q017", "language": "Hinglish", "topic_hint": "Process synchronization and semaphores", "query": "Semaphore ka use process synchronization mein kaise hota hai?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q018", "language": "Hinglish", "topic_hint": "Process synchronization and semaphores", "query": "Critical section ko ek time par kitne processes access kar sakte hain?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q019", "language": "English", "topic_hint": "Deadlocks", "query": "What is deadlock in an operating system?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q020", "language": "English", "topic_hint": "Deadlocks", "query": "Why can processes wait indefinitely in a deadlock?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q021", "language": "Hindi", "topic_hint": "Deadlocks", "query": "ऑपरेटिंग सिस्टम में डेडलॉक क्या होता है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q022", "language": "Hindi", "topic_hint": "Deadlocks", "query": "डेडलॉक में प्रोसेस एक दूसरे का इंतज़ार क्यों करते हैं?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q023", "language": "Hinglish", "topic_hint": "Deadlocks", "query": "Deadlock kab hota hai?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q024", "language": "Hinglish", "topic_hint": "Deadlocks", "query": "Processes resources ke liye wait karte rahein to kya situation banti hai?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q025", "language": "English", "topic_hint": "Memory management and paging", "query": "What is paging in memory management?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q026", "language": "English", "topic_hint": "Memory management and paging", "query": "How are processes divided into pages?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q027", "language": "Hindi", "topic_hint": "Memory management and paging", "query": "मेमोरी मैनेजमेंट में पेजिंग क्या होती है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q028", "language": "Hindi", "topic_hint": "Memory management and paging", "query": "प्रोसेस को पेजों में क्यों बाँटा जाता है?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q029", "language": "Hinglish", "topic_hint": "Memory management and paging", "query": "Process ko pages mein kaise divide karte hain?", "relevant": [], "verified": false, "annotation_notes": ""}
+{"query_id": "Q030", "language": "Hinglish", "topic_hint": "Memory management and paging", "query": "Secondary memory se process ko main memory mein kaise laate hain?", "relevant": [], "verified": false, "annotation_notes": ""}

@@ -2,7 +2,8 @@
 
 ## A. Browser timestamp validation
 
-All five lecture videos passed manual browser testing. Selecting a search result loaded the corresponding video and moved playback to the displayed timestamp.
+All five lecture videos passed manual browser testing. Selecting a search result loaded the
+corresponding video and moved playback to the displayed timestamp.
 
 | Topic | Expected lecture ID | Media streaming | Visible timestamp seeking |
 |---|---|---:|---:|
@@ -14,17 +15,20 @@ All five lecture videos passed manual browser testing. Selecting a search result
 
 **Result: 5/5 lecture videos passed browser timestamp-seeking verification.**
 
+`Media streaming` records a successful HTTP byte-range response (`HTTP 206`) for the lecture
+endpoint. `Visible timestamp seeking` records that the player's visible position was checked
+against the result timestamp. These are recorded separately because a byte-range response
+alone does not prove the player started at the requested time.
+
 ## B. Automated verification
 
-From the Fedora project root:
+From the project root:
 
 ```bash
-cd ~/Documents/lecture-search
-source ~/venvs/lecture-search/bin/activate
 python -m pytest -q tests/
 ```
 
-Expected recorded result: **46 passed**. Investigate any change from this count before release.
+Expected result: **46 passed**. Investigate any change from this count before release.
 
 Run the chart generator:
 
@@ -40,7 +44,10 @@ docs/figures/overall_mrr.png
 docs/figures/language_performance.png
 ```
 
-The full benchmark was previously regenerated as 180 runs with all 30 verified queries scored and a ±10-second timestamp tolerance. Do not rerun it just to create figures if its current results CSVs already match the documented final metrics. If code or annotations have changed since that run, rerun and update the report and figures together.
+The full benchmark was previously regenerated as 180 runs with all 30 verified queries scored
+and a ±10-second timestamp tolerance. `scripts/score_benchmark.py` is deterministic and
+reproduces the reported aggregate CSVs from the committed `runs.jsonl`. If code or
+annotations have changed since that run, rerun and update the report and figures together.
 
 ## C. Repository hygiene
 
@@ -60,7 +67,9 @@ git check-ignore -v data/raw/os_l58.mp4
 git diff --name-only -- '*.mp4' '*.wav' '*.mp3'
 ```
 
-Do not commit original lecture videos, extracted audio, virtual environments, model caches, API keys or backup files. Confirm the benchmark query file, run log, score CSVs, docs and generated figures are present and appropriately tracked.
+Do not commit original lecture videos, extracted audio, virtual environments, model caches,
+API keys or backup files. Confirm the benchmark query file, run log, score CSVs, docs and
+generated figures are present and appropriately tracked.
 
 ## D. Commit and push
 
@@ -80,14 +89,16 @@ Check that the working tree is clean and the local branch is synchronized with `
 
 ## E. Demo artifact
 
-Record the demo using `docs/DEMO_SCRIPT.md`. Save the video locally and only commit it if the repository's size policy allows it. A hosted demo link or a release attachment may be more suitable than committing a large recording.
+Record the demo using `docs/DEMO_SCRIPT.md`. Save the video locally and only commit it if the
+repository's size policy allows it. A hosted demo link or a release attachment may be more
+suitable than committing a large recording.
 
 ## Release acceptance criteria
 
 - [x] All five browser timestamp checks visibly pass.
-- [ ] Automated test suite passes (recorded baseline: 46 tests).
-- [ ] Overall and language benchmark figures generated from the final CSV exports.
-- [ ] Research report and architecture documentation reviewed.
+- [x] Automated test suite passes (46 tests).
+- [x] Overall and language benchmark figures generated from the final CSV exports.
+- [x] Research report and architecture documentation reviewed.
+- [x] Repository hygiene verified: no media, secrets, backup files or virtual environment staged.
+- [x] Continuous integration workflow (`.github/workflows/ci.yml`) runs the test suite on push and pull request.
 - [ ] Demo recording completed.
-- [ ] No media, secrets, backup files or virtual environment staged.
-- [ ] Commit pushed; local branch clean and synchronized.

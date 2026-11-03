@@ -107,8 +107,9 @@ The project state recorded on 2 November 2026 includes:
 - Health and lecture-catalogue endpoint checks.
 - Search endpoint checks for English, Hindi and Hinglish examples.
 - HTTP 206 byte-range responses for the five video media endpoints.
-- 46 passing regression tests in the Fedora project environment.
+- 46 passing regression tests, also enforced by a continuous integration workflow on every push and pull request.
 - Browser timestamp seeking manually verified for all five lectures: FCFS, SJF, Process Synchronization, Deadlocks and Paging.
+- Deterministic scoring: re-running `scripts/score_benchmark.py` on the committed `runs.jsonl` reproduces the aggregate CSVs exactly.
 
 Browser testing subsequently confirmed that selecting search results for all five lectures loads the corresponding video and seeks playback to the displayed timestamp. All five lecture videos passed this manual timestamp-seeking verification.
 
